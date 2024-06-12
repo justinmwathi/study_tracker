@@ -44,44 +44,66 @@ Study Tracker is a CLI-based application designed to help students track their s
 
     ```
     Study Tracker Menu
-    1. Add Subject
-    2. View Subjects
-    3. Add Study Session
-    4. View Study Sessions
-    5. Delete Study Session
-    6. Delete Subject
-    7. Exit
+        1. Add Student
+        2. View Students
+        3. Add Subject
+        4. View Subjects
+        5. Add Study Session
+        6. View Study Sessions
+        7. Update Study Session
+        8. Delete Study Session
+        9. Delete Subject
+        10. Exit
     ```
 
-3. **Add a Subject:**
+3. **Add a Student:**
 
     - Select option `1` from the main menu.
-    - Enter the subject name when prompted.
+    - Enter the student name and email when prompted.
 
-4. **View Subjects:**
+4. **View Students:**
 
     - Select option `2` from the main menu.
-    - The application will display all the subjects.
+    - The application will display all the students.
 
-5. **Add a Study Session:**
+5. **Add a Subject:**
 
     - Select option `3` from the main menu.
-    - Enter the student ID, subject ID, date (YYYY-MM-DD), duration (in minutes), and topics covered when prompted.
+    - Enter the student ID and subject name when prompted.
 
-6. **View Study Sessions:**
+6. **View Subjects:**
 
     - Select option `4` from the main menu.
-    - Enter the subject ID to view all study sessions associated with that subject.
+    -  The application will display all the subjects.
 
-7. **Delete a Study Session:**
+7. **Add a Study Session:**
 
     - Select option `5` from the main menu.
-    - Enter the study session ID when prompted.
+    - Enter the subject ID,date,duration and topics to be covered  when prompted.
 
-8. **Delete a Subject:**
+8. **View Study Sessions:**
 
     - Select option `6` from the main menu.
     - Enter the subject ID when prompted.
+
+
+
+9. **Update a Study Session:**
+
+    - Select option `7` from the main menu.
+    - Enter the study session ID,date,duration and topics to be covered when prompted.
+
+
+10. **Delete a Study Session:**
+
+    - Select option `8` from the main menu.
+    - Enter the study session ID when prompted.
+
+
+10. **Delete a Subject:**
+
+    - Select option `9` from the main menu.
+    - Enter the subject's ID when prompted.
 
 ## Project Structure
 

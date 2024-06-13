@@ -15,7 +15,7 @@ Study Tracker is a CLI-based application designed to help students track their s
 
 - Python 3.x
 - SQLite3
-- Click (for CLI functionality)
+
 
 ## Installation
 
